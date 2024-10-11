@@ -110,3 +110,18 @@ python generate.py --task add --min 1 --max 100 --num 20 --split train --no_prom
 ```
 
 The expressions are divided into equivalence classes based on the pair `(len(a), len(b))`. The `min` and `max` parameters refer to the minimum and maximum length of the operands, respectively. The `num` parameter defines how many expressions will be generated per class, though the actual number may vary based on sampling and balancing strategies.
+
+## Citation
+
+If you use CAEF for your research, please cite our [paper](https://arxiv.org/abs/2410.07896):
+```bibtex
+@misc{lai2024executing,
+      title={Executing Arithmetic: Fine-Tuning Large Language Models as Turing Machines}, 
+      author={Junyu Lai and Jiahe Xu and Yao Yang and Yunpeng Huang and Chun Cao and Jingwei Xu},
+      year={2024},
+      eprint={2410.07896},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2410.07896}, 
+}
+```
